@@ -9,6 +9,8 @@
 8. Run ``snyk container test juice-shop --file=Dockerfile`` to scan container image and confirm the scan completes successfully
 9. Run ``snyk container monitor juice-shop --file=Dockerfile`` to monitor container dependencies in Snyk
 
+
+
 **IMPORTANT NOTE**: Running ``npm install`` on your local system is **NOT needed** and likely won't work if you're on the newest version of Node (see Node compatibility chart below)
 
 **Original readme**
