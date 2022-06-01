@@ -188,6 +188,8 @@ Shop! Just
 or [the project leader](mailto:bjoern.kimminich@owasp.org) to discuss
 your plans!
 
+
+
 ## Donations
 
 [![](https://img.shields.io/badge/support-owasp%20juice%20shop-blue)](https://owasp.org/donate/?reponame=www-project-juice-shop&title=OWASP+Juice+Shop)
