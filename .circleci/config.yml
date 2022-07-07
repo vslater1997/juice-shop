@@ -21,3 +21,4 @@ jobs: # a collection of steps
       - run: # run snyk test - run snyk test
           name: snyk test
           command: snyk test
+          continue-on-error: true
