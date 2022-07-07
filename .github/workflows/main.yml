@@ -31,5 +31,5 @@ jobs:
           command: test # optional, default is test
           # Additional arguments to pass to Snyk
          # args: # optional
-          # Output a snyk.json file with results if running the test command
+          # Output a snyk.json file with results if running the test comman
           #json: # optional
