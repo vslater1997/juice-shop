@@ -19,3 +19,13 @@ steps:
     npm install
     npm run build
   displayName: 'npm install and build'
+
+- task: SnykSecurityScan@1
+  inputs:
+    serviceConnectionEndpoint: 'snyk-awsp'
+    testType: 'app'
+    severityThreshold: 'medium'
+    monitorWhen: 'always'
+    failOnIssues: true
+    projectName: 'juice-shop'
+    organization: '3bcce633-7bcc-46fc-88de-b50db8eeeb16'
