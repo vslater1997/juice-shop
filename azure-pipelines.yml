@@ -26,6 +26,6 @@ steps:
     testType: 'app'
     severityThreshold: 'medium'
     monitorWhen: 'always'
-    failOnIssues: fail
+    failOnIssues: true
     projectName: 'juice-shop'
     organization: '3bcce633-7bcc-46fc-88de-b50db8eeeb16'
